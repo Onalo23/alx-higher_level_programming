@@ -2,12 +2,11 @@
 
 /**
  * check_cycle - checks if a linked list contains a cycle
- * @list: linkd list to be checked
+ * @list: linked list to check
  *
  * Return: if the list has a cycle 1, otherwise 0
  */
 int check_cycle(listint_t *list)
-
 {
 	listint_t *slow = list;
 	listint_t *fast = list;
