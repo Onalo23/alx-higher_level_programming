@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 
 def fizzbuzz():
-    "print the numbers from 1 to 100 separated by a space"
-    "For multiples of three print Fizz instead of the number"
-    "For multiples of five print Buzz instead of the number"
-    "For multiples of three and five print FizzBuzz instead of the number"
+    """print the numbers from 1 to 100 separated by a space
+
+    For multiples of three print Fizz instead of the number
+    For multiples of five print Buzz instead of the number
+    For multiples of three and five print FizzBuzz instead of the number
+    """
     for number in range(1, 101):
         if number % 3 == 0 and number % 5 == 0:
             print("FizzBuzz", end="")
@@ -13,4 +15,4 @@ def fizzbuzz():
         elif number % 5 == 0:
             print("Buzz", end="")
         else:
-            print("{}".format(number), end="")
+            print("{} ".format(number), end="")
