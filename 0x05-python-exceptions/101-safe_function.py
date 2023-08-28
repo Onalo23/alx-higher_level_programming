@@ -11,7 +11,8 @@ def safe_function(fct, *args):
         args: Arguments for fct.
 
     Returns:
-        if an error occurs - None, Otherwise - the result of the call to fct
+        if an error occurs - None,
+        Otherwise - the result of the call to fct
     """
     try:
         result = fct(*args)
