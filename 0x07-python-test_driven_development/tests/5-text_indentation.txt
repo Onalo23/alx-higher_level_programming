@@ -1,13 +1,13 @@
-5-text_indentation.txt module
+5-text_indentation.txt
 
-=========================================
-the Use of 5-text_indentation.py Function
-=========================================
+================================
+How to Use 5-text_indentation.py
+================================
 
-module defines a text-indentation function ``text_indentation(text)``.
+This module defines a text-indentation function ``text_indentation(text)``.
 
-module operation
-================
+Usage
+=====
 
 Text is printed with two new lines after each of the characters ``.``, ``?``,
 and ``:``.
@@ -48,7 +48,7 @@ Similarly, no spaces are printed at the end of each printed line.
     <BLANKLINE>
 
 New lines are only printed for the characters ``.``, ``?``, and ``:`` -
-text not ending with one of these characters is not ended with a new line
+text not ending with one of these characters is not ended with a new line.
 
 ::
 
@@ -68,11 +68,11 @@ New lines within a string are printed as normal.
 
 ::
 
-    >>> text_indentation("\n\n\n We just printed three new lines")
+    >>> text_indentation("\n\n\n We just printed three new lines.")
     <BLANKLINE>
     <BLANKLINE>
     <BLANKLINE>
-    We just printed three new lines
+    We just printed three new lines.
     <BLANKLINE>
 
 ::
@@ -109,25 +109,25 @@ A combo example:
     <BLANKLINE>
     Plus semper voluptatis?
     <BLANKLINE>
-    Teneo, inquit, finem illi videri nihil dolere
+    Teneo, inquit, finem illi videri nihil dolere.
     <BLANKLINE>
-    Transfer idem ad modestiam vel temperantiam
-    quae est moderatio cupiditatum rationi oboediens
+    Transfer idem ad modestiam vel temperantiam, 
+    quae est moderatio cupiditatum rationi oboediens.
     <BLANKLINE>
-    Si id dicis, vicimus
+    Si id dicis, vicimus.
     <BLANKLINE>
-    Inde sermone vario sex illa a Dipylo stadia confecimus
+    Inde sermone vario sex illa a Dipylo stadia confecimus.
     <BLANKLINE>
-    Sin aliud quid voles, postea
+    Sin aliud quid voles, postea.
     <BLANKLINE>
-    Quae animi affectio suum cuique tribuens atque hanc, quam dico
+    Quae animi affectio suum cuique tribuens atque hanc, quam dico.
     <BLANKLINE>
     Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
 
-the invalid Text
-================
+Invalid Text
+============
 
-paramter ``text`` must be a string. Otherwise, TypeError is raised
+The paramter ``text`` must be a string. Otherwise, a TypeError is raised.
 
 ::
 
